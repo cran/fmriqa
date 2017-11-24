@@ -1,0 +1,8 @@
+22607fc57ad3578401cc37730a12d06d *DESCRIPTION
+f88b19571f40775bddb6598a5f77becf *NAMESPACE
+5bd3a67e5c50ac957003f9594084111c *NEWS.md
+af91d95585f651f5b3f4ddfc254f5541 *R/fmriqa.R
+aa4a2b1216ca86392bdb33de169df8de *R/run_fmriqa.R
+82949c28f8ae2382d47e9b24530fd47d *inst/extdata/qa_data.nii.gz
+a1ef41e28cbd46203108cbbc8e19d27d *man/fmriqa-package.Rd
+27a70cad95349f386c9ab8bbb8ea7150 *man/run_fmriqa.Rd
