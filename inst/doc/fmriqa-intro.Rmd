@@ -1,0 +1,33 @@
+---
+title: "Introduction to fmriqa"
+author: "Martin Wilson"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to fmriqa}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Overview
+The fmriqa package provides an implementation of the fMRI quality assurance (QA) 
+analysis protocol detailed by Friedman and Glover (2006) http://dx.doi.org/10.1002/jmri.20583.
+
+## Usage
+```{r basic, eval = FALSE}
+# load the package
+library(fmriqa)
+
+# get help on the options for run_fmriqa
+?run_fmriqa
+
+# run the analysis - a file chooser will appear when a data_file argument is not given
+run_fmriqa()
+```
+
+## Real data example
+```{r real_data, eval = TRUE}
+library(fmriqa)
+fname <- system.file("extdata", "qa_data.nii.gz", package = "fmriqa")
+res <- run_fmriqa(data_file = fname, gen_png = FALSE, gen_res_csv = FALSE, tr = 3)
+```

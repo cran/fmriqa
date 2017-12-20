@@ -1,8 +1,8 @@
 Package: fmriqa
 Type: Package
 Title: Functional MRI Quality Assurance Routines
-Version: 0.1.0
-Date: 2017-11-22
+Version: 0.2.0
+Date: 2017-12-20
 Authors@R: person("Martin", "Wilson", email = "martin@pipegrep.co.uk",
                    role = c("cre","aut"))
 Description: Methods for performing fMRI quality assurance (QA) measurements of
@@ -15,9 +15,11 @@ RoxygenNote: 6.0.1
 Imports: viridisLite, RNifti, ggplot2, reshape2, gridExtra, grid,
         tidyr, optparse, tcltk, RcppEigen, pracma
 Encoding: UTF-8
+Suggests: testthat, covr, knitr, rmarkdown
+VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2017-11-24 09:40:04 UTC; wilsonmp
+Packaged: 2017-12-20 14:15:03 UTC; home
 Author: Martin Wilson [cre, aut]
 Maintainer: Martin Wilson <martin@pipegrep.co.uk>
 Repository: CRAN
-Date/Publication: 2017-11-24 13:51:41 UTC
+Date/Publication: 2017-12-20 15:21:35 UTC
