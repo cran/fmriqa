@@ -1,3 +1,11 @@
+# fmriqa 0.3.0
+* Improved method for calculating the object center of gravity for automated
+ROI placement.
+* Added method to calcuate the maximum background (MBG) signal.
+* Added an option (pix_dim) to override the image voxel dimensions.
+* Mean background image added to output.
+* Background TC plot added to output.
+
 # fmriqa 0.2.0
 * Added an argument for the polynomial detrending order and changed the default
 from 2 to 3.

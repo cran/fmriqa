@@ -12,7 +12,7 @@
 
 <meta name="author" content="Martin Wilson" />
 
-<meta name="date" content="2017-12-20" />
+<meta name="date" content="2018-02-19" />
 
 <title>Introduction to fmriqa</title>
 
@@ -70,7 +70,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
 <h1 class="title toc-ignore">Introduction to fmriqa</h1>
 <h4 class="author"><em>Martin Wilson</em></h4>
-<h4 class="date"><em>2017-12-20</em></h4>
+<h4 class="date"><em>2018-02-19</em></h4>
 
 
 
@@ -94,17 +94,18 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(fmriqa)
 fname &lt;-<span class="st"> </span><span class="kw">system.file</span>(<span class="st">&quot;extdata&quot;</span>, <span class="st">&quot;qa_data.nii.gz&quot;</span>, <span class="dt">package =</span> <span class="st">&quot;fmriqa&quot;</span>)
 res &lt;-<span class="st"> </span><span class="kw">run_fmriqa</span>(<span class="dt">data_file =</span> fname, <span class="dt">gen_png =</span> <span class="ot">FALSE</span>, <span class="dt">gen_res_csv =</span> <span class="ot">FALSE</span>, <span class="dt">tr =</span> <span class="dv">3</span>)</code></pre></div>
-<pre><code>## Reading data  : C:/Users/home/AppData/Local/Temp/RtmpuObu5v/Rinst2d186c9ec10/fmriqa/extdata/qa_data.nii.gz
+<pre><code>## Reading data  : C:/Users/wilsonmp/AppData/Local/Temp/RtmpOUyEUj/Rinst103c5e12686c/fmriqa/extdata/qa_data.nii.gz
 ## 
 ## Basic analysis parameters
 ## -------------------------
-## X,Y dims      : 80x80
-## Slices        : 1
-## TR            : 3s
-## Slice #       : 1
-## ROI width     : 21
-## Total vols    : 200
-## Analysis vols : 198
+## X,Y matrix     : 80x80
+## Slices         : 1
+## X,Y,Z pix dims : 1x1x1mm
+## TR             : 3s
+## Slice #        : 1
+## ROI width      : 21
+## Total vols     : 200
+## Analysis vols  : 198
 ## 
 ## QA metrics
 ## ----------
@@ -117,7 +118,8 @@ res &lt;-<span class="st"> </span><span class="kw">run_fmriqa</span>(<span class
 ## SFNR          : 137
 ## RDC           : 2.84
 ## TC outlier    : 2.66
-## Spec outlier  : 5.12</code></pre>
+## Spec outlier  : 5.12
+## MBG percent   : 0.65</code></pre>
 </div>
 
 
